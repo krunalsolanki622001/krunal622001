@@ -2,94 +2,32 @@
 <head>
 <title>Contact_Us</title>
 <body>
-<style>
-form {
-		border: 3px solid #f1f1f1;
-		width: 550px;
-        height: 650px;
-        margin: auto;
-        position: relative;
-	}
-	/*assign full width inputs*/
+<form name="Contact_usForm" method="get" action="index.html">
+<table width="20%" bgcolor="0099CC" align="center">
 
-	input[type=text]
-	{
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		box-sizing: border-box;
-	}
-	/*set a style for the buttons*/
-
-	button {
-		background-color: #4CAF50;
-		color: white;
-		padding: 14px 20px;
-		margin: 8px 0;
-		border: none;
-		cursor: pointer;
-		width: 100%;
-	}
-	/* set a hover effect for the button*/
-
-	button:hover {
-		opacity: 0.8;
-	}
+<tr>
+<td colspan=2><center><font size=4><b>Contact_us</b></font></center></td>
+</tr>
 
 
+<tr>
+<td>Full Name:</td>
+<td><input type="text" name="name"></td>
+</tr>
 
-	/*centre the display image inside the container*/
+<tr>
+<td>E-Mail:</td>
+<td><input type="id" name="mail"></td>
+</tr>
 
-	.imgcontainer {
-		text-align: center;
-		margin: 20px 0 10px 0;
-	}
-	/*set image properties*/
-
-	img.cus {
-		width: 40%;
-		border-radius: 20%;
-	}
-	/*set padding to the container*/
-
-	.container {
-		padding: 16px;
-	}
-
-	/*set styles for span and cancel button on small screens*/
-
-	@media screen and (max-width: 300px) {
-		span.psw {
-			display: block;
-			float: none;
-		}
-
-	}
-</style>
-
-<form action="index3.html" method="get">
-
-  <div class="imgcontainer">
-    <img src="C:\Users\HP\Downloads\cus.png" alt="cus" class="cus">
-  </div>
-
-  <div class="container">
-      <h1>Contact_Us Page</h1>
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" >
-
-    <label for="E-mail"><b>E-Mail</b></label>
-    <input type="text" placeholder="Enter Mail-Id" name="mail">
-
-      <label for="Message"><b>Message</b></label>
-    <input type="text" placeholder="Enter Message" name="msg">
-
-    <button type="submit">Enter</button>
-
-  </div>
-
+<tr>
+<td>Message:</td>
+<td><input type="text area" name="textarea"></td>
+</tr>
+    <tr><td>
+      <input type="submit" value="enter">
+     </td></tr>
+</table>
 
 </form>
 </body>
