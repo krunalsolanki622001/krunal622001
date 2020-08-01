@@ -3,37 +3,91 @@
 	<title>Reset Password</title>
 </head>
 <body>
-<form name="passwordForm" method="get" action="Login.html" >
-<table width="40%" bgcolor="#00FF00" align="center">
+<style>
+form {
+		border: 3px solid #f1f1f1;
+		width: 550px;
+        height: 700px;
+        margin: auto;
+        position: relative;
+	}
 
-<tr>
-<td colspan=2><center><font size=4><b>Reset Password</b></font></center></td>
-</tr>
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
 
-<tr>
-<td> Email Id : </td>
-<td> <input type="txt" name="password"> </td>
-</tr>
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
 
-<tr>
-<td> Mobile No : </td>
-<td> <input type="txt" name="number"> </td>
-</tr>
-<tr>
-<td> enter new password : </td>
-<td> <input type="pwd"password"> </td>
-</tr>
+input[type=text]:focus, input[type=number];focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
 
-<tr>
-<td> re enter password: </td>
-<td> <input type="pwd" name="password"> </td>
-</tr>
-<tr >
-<td>
-     <input type="submit" value="enter">
-</td>
-</tr>
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.Clickbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
 
-</table>
+.Clickbtn:hover {
+  opacity:1;
+}
+
+
+}
+</style>
+<form action="Login3.html" method="get">
+  <div class="container">
+    <h1>Reset password!!!</h1>
+    <hr>
+    <label for="Full Name"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Full Name" name="name" id="name">
+
+
+
+      <label for="Mobile Number"><b>Mobile Number</b></label>
+      <input type="number" placeholder="Enter Mobile Number" name="number" id="number" >
+
+
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email">
+
+
+
+      <label for="psw"><b>Enter New Password</b></label>
+      <input type="password" placeholder="Enter New Password" name="psw" id="psw">
+
+
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat">
+      <hr>
+      <button type="submit" class="Clickbtn">Click</button>
+
+  </div>
+
+
+</form>
+
 </body>
 </html>
