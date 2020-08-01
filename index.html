@@ -3,37 +3,60 @@
 	<title>Home Page</title>
 </head>
 <body>
+<style>
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("C:\Users\HP\Downlods\hello.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
+	/* set a hover effect for the button*/
+
+	button:hover {
+		opacity: 0.8;
+	}
+</style>
+
+
+
 <h1 align="center"> Online shopping system(men's fashion store) </h1>
-<form name="HomeForm" method="get" >
+<form name="HomeForm" method="get" action="shoppingcart3.html">
 
-
-
-<h2><b>Home Page</b></h2>
-
-
-<table >
-<tr>
-<td> <input type="txt"><input type="submit" name="search" value="search"></td>
+	<h2><b>Home Page</b></h2>
+	<table >
+		<tr>
+<td>  <input type="txt"><input type="submit" name="search" value="search"></td>
 </tr>
 </table>
 <table>
 <tr>
-	<td><a href="index.html">home</a></td>
-</tr>
-<tr>
-	<td><a href="Register.html">register</a></td>
-</tr>
-<tr>
-	<td><a href="Login.html">Login</a></td>
-</tr>
-<tr>
-	<td><a href="Contact_us.html">contact us</a></td>
-</tr>
-<tr>
-	<td><a href="about_us.html">about us</a></td>
+	<td><a href="index3.html">home</a></td>
+	<td><a href="register3.html">register</a></td>
+	<td><a href="Login3.html">Login</a></td>
+	<td><a href="Contact_us3.html">contact us</a></td>
+	<td><a href="about_us3.html">about us</a></td>
 </tr>
 </table>
-<p>
+	<p>
 		The	Online Shopping system	(OSS) provides an easy solution for customers to buy the product .<br>
 		mens clothes<br><br>
 
@@ -42,12 +65,11 @@
 		mens shoes<br><br>
 
 		mens glasses<br><br>
-</p>
+	</p>
 </form>
+<h1 align="center"> <a href="Our products"><button>Our products</button></a> </h1>
 </body>
 </html>
-
-
 
 
 
