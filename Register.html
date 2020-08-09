@@ -1,91 +1,7 @@
 <html>
 <head>
   <title>Register Page</title>
-  <script>
-	function validateForm()
-	{
-
-		var x1= document.forms["registration"]["fname"].value;
-		var x2= document.forms["registration"]["lname"].value;
-		var x3= document.forms["registration"]["email"].value;
-		var x4= document.forms["registration"]["psw"].value;
-		var x5= document.forms["registration"]["psw-repeat"].value;
-
-
-        //email id expression code
-		var psw_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
-		var letters = /^[A-Za-z]+$/;
-		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-		if(x1=='')
-		{
-			alert('Please enter your name');
-			return false;
-		}
-		else if(!letters.test(x1))
-		{
-			alert('Name field required only alphabet characters');
-			return false;
-		}
-		else if(x2=='')
-		{
-			alert('Please enter the user name.');
-			return false;
-		}
-		else if(!letters.test(x2))
-		{
-			alert('User name field required only alphabet characters');
-			return false;
-		}
-		else if(x3=='')
-		{
-			alert('Please enter your user email id');
-			return false;
-		}
-		else if (!filter.test(x3))
-		{
-			alert('Invalid email');
-			return false;
-		}
-
-		else if(x4=='')
-		{
-			alert('Please enter Password');
-			return false;
-		}
-		else if(x5=='')
-		{
-			alert('Enter Confirm Password');
-			return false;
-		}
-		else if(!psw_expression.test(x4))
-		{
-			alert ('Upper case, Lower case, Special character and Numeric letter are required in Password filed');
-			return false;
-		}
-		else if(x4 != x5)
-		{
-			alert ('Password not Matched');
-			return false;
-		}
-		else if(document.forms["registration"]["psw-repeat"].value.length < 6)
-		{
-			alert ('Password minimum length is 6');
-			return false;
-		}
-		else(document.forms["registration"]["psw-repeat"].value.length > 12)
-		{
-			alert ('Password max length is 12');
-			return false;
-		}
-        else
-		{
-           return true;
-		}
-	}
-
-</script>
-</head>
+ </head>
 <body>
 <style>
 form {
@@ -148,7 +64,7 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }</style>
-<form name="registration" action="Login.html" onsubmit="return validateForm()" method="get">
+<form name="registration" action="Login.html" method="get">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
