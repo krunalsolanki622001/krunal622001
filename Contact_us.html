@@ -42,13 +42,13 @@ input[type=submit]:hover {
   <form action="index.html" method="get">
     <h1>Contact_Us !!!</h1>
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." requried>
 
     <label for="country">Country</label>
-    <select id="country" name="country">
+    <select id="country" name="country" requried>
       <option value="india">India</option>
       <option value="canada">Canada</option>
       <option value="shrilanka">shrilanka</option>
@@ -58,7 +58,7 @@ input[type=submit]:hover {
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" requried></textarea>
 
     <input type="submit" value="Submit">
 
