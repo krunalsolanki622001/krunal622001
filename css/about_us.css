@@ -10,7 +10,7 @@ button {
 	/* set a hover effect for the button*/
 	img
 	{
-		float:left;
+		float:right;
 	}
 
 	button:hover {
