@@ -8,9 +8,10 @@ button {
 		width: 100%;
 	}
 	/* set a hover effect for the button*/
-	.img{
+	.img
+	{
 		float:left;
-}
+	}
 
 	button:hover {
 		opacity: 0.8;
