@@ -1,6 +1,47 @@
+.abox{
+hight:1200px;
+width:1400px;
+border:5px solid black;
+background-color:white;
+}
+.brow
+{
+    border:3px solid red;
+    }
+.arow
+{
+    hight:15px;
+    border:2px solid black;
+    }
+.adiv{
+hight:30px;
+background-color:white;
+}
+.bdiv{
+hight:30px;
+background-color:white;
+}
+.cdiv{
+hight:30px;
+background-color:whitw;
+}
+.ddiv{
+hight:30px;
+background-color:white;
+}
+.ediv{
+hight:30px;
+background-color:white;
+}
+img{
+float: right;
+}
+.img-thumbnail{
+    hight:300px;
+    width:300px;
+}
+.btn {
 
-button {
-		background-color: #4CAF50;
 		color: white;
 		padding: 14px 20px;
 		margin: 8px 0;
@@ -12,8 +53,4 @@ button {
 
 	button:hover {
 		opacity: 0.8;
-	}
-	img
-	{
-		float: left;
 	}
