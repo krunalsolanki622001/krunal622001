@@ -1,64 +1,43 @@
 <html>
 <head>
 	<title>Home Page</title>
-	 <link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
-	
 <body>
-<style>
-button {
-		background-color: #4CAF50;
-		color: white;
-		padding: 14px 20px;
-		margin: 8px 0;
-		border: none;
-		cursor: pointer;
-		width: 100%;
-	}
-	/* set a hover effect for the button*/
-
-	button:hover {
-		opacity: 0.8;
-	}
-	img
-	{
-		float: left;
-	}
-</style>
-
-
-
+<div class="container abox">
 <h1 align="center"> Online shopping system(men's fashion store) </h1>
-<form method="get" action="shoppingcart3.html">
-
+<form name="HomeForm" method="get" action="shoppingcart3.html">
+<div class="row brow">
 	<h2><b>Home Page</b></h2>
-	<p><img src="img\123.jpg" alt="123" style="width:400px;hight:400px;margin-right:15px;"></p>
 	<table >
 		<tr>
-<td>  <input type="txt"><input type="submit" name="search" value="search"></td>
-</tr>
-</table>
-<table>
-<tr>
-	<td><a href="index.html">home</a></td>
-	<td><a href="Register.html">register</a></td>
-	<td><a href="Login.html">Login</a></td>
-	<td><a href="Contact_us.html">contact us</a></td>
-	<td><a href="about_us.html">about us</a></td>
-</tr>
-</table>
+		<td>  <input type="txt"><input type="submit" name="search" value="search"></td>
+		</tr>
+	</table>
+</div>
+<div class="row arow">
+	<div class="col-md-2 adiv"><a href="index.html">home</a></div>
+	<div class="col-md-2 bdiv"><a href="register.html">register</a></div>
+	<div class="col-md-2 cdiv"><a href="Login.html">Login</a></div>
+	<div class="col-md-2 ddiv"><a href="Contact_us.html">contact us</a></div>
+	<div class="col-md-2 ediv"> <a href="about_us.html">about us</a></div>
+</div>
+	<p><img src="img/123.jpg"  class="img-thumbnail" alt="photo" style="width:300px;height:300px;margin-left:15px;"></p>
 	<p>
 		The	Online Shopping system	(OSS) provides an easy solution for customers to buy the product .<br>
 		mens clothes<br><br>
 
-		<mark>mens watch</mark><br><br>
+		mens watch<br><br>
 
-		<mark>mens shoes</mark><br><br>
-		<mark>mens shirt</mark><br><br>
-		<mark>mens glasses</mark><br><br>
+		mens shoes<br><br>
+
+		mens glasses<br><br>
 	</p>
-	<center><a href="shoppingcart3.html"><button>Our peoducts</button></a> </center>
+	<center><a href="shoppingcart3.html"><button type="button" class="btn btn-primary">Our Products</button></a></center>
+</div>
 </form>
+
 </body>
 </html>
 
