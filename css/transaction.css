@@ -1,10 +1,15 @@
-.imgcontainer { 
+.cbox
+{
+    border:2px solid blue;
+    background-color:white;
+}
+.imgcontainer {
 		text-align: center; 
 		margin: 20px 0 10px 0;
 	} 
 	/*set image properties*/ 
-	
-	img.ts0 { 
-		width: 20%;
-		border-radius: 20%;
-	}
+.img-thumbnail{
+    width: 20%;
+    border:1px solid blue;
+    border-radius: 20%;
+}
