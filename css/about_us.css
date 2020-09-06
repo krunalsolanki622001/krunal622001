@@ -1,18 +1,25 @@
-button {
-		background-color: #4CAF50;
+.abox{
+    width:1200px;
+    border:3px solid gray;
+    background-color:aqua;
+}
+.bbox{
+    width:1100px;
+    background-color:gold;
+}
+img{
+    float:right;
+}
+btn {
 		color: white;
-		padding: 14px 20px;
+		padding: 10px 16px;
 		margin: 8px 0;
 		border: none;
 		cursor: pointer;
-		width: 100%;
+		width: 50%;
 	}
 	/* set a hover effect for the button*/
-	img
-	{
-		float:right;
-	}
 
-	button:hover {
+	btn:hover {
 		opacity: 0.8;
 	}
