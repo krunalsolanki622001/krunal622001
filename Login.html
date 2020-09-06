@@ -1,40 +1,44 @@
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
     Login Page
   </title>
-<link rel="stylesheet" href="css/Login.css">
-  <script src="javascript/login.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/Login.css">
 </head>
 <body>
 
 <form action="index.html" method="get">
-       <div class="imgcontainer">
-    <img src="img\oss.png" alt="oss" class="oss">
+  <div class="imgcontainer">
+    <img src="img/oss.png" alt="oss" class="oss">
   </div>
-Username : krunal100
-     Password : 5744
-     <br>
-
+Username : krunal100 Password : 5744<br>
   <div class="container">
-
     <h1>Login Page</h1>
+    <div class="form-group">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
+    <input type="text" class="form-control" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div class="form-group">
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" onclick="validate()">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
+    <input type="password" class="form-control" placeholder="Enter Password" name="psw" required>
+    </div>
+    <div class="form-group form-check">
+    <label class="form-check-lable">
+      <input type="checkbox" class="form-check-input" checked="checked" name="remember"> Remember me
     </label>
+    </div>
+    <center><button type="submit" class="btn btn-primary" onclick="validate()">Login</button></center>
+
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="container" style="border:3px solid black; background-color:#C0C0C0">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="forgot_pass.html">password?</a></span>
   </div>
 </form>
+<script src="javascript/bootstrao.min.js"></script>
+<script src="javascript/login.js"></script>
 </body>
 </html>
