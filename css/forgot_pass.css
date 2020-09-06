@@ -1,14 +1,19 @@
 form {
 		border: 3px solid #000000;
-		width: 550px;
-        height: 700px;
+		width: 1200px;
+        height: 750px;
         margin: auto;
         position: relative;
-	}
+
+}
+.from-group{
+}
 
 /* Add padding to containers */
 .container {
   padding: 16px;
+  hight:500px;
+  width:1200px;
 }
 
 /* Full-width input fields */
@@ -28,20 +33,23 @@ input[type=text]:focus, input[type=number];focus, input[type=password]:focus {
 
 /* Overwrite default styles of hr */
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  border: 1px solid #ff0000;
+  margin-bottom: 10px;
 }
-.Clickbtn {
-  background-color: #4CAF50;
+.btn {
+
   color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
+  padding: 10px 16px;
+  margin: 4px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 15%;
   opacity: 0.9;
 }
 
-.Clickbtn:hover {
+.btn:hover {
   opacity:1;
+}
+
+
 }
