@@ -1,36 +1,40 @@
 .abox{
-border:5px solid black;
+border:3px solid black;
 background-color:white;
 }
+
 .brow
 {
-    border:3px solid red;
-    }
+    border:2px solid red;
+}
+.navbar-toggler {
+  display: none;
+}
+
+/* _navbar.scss:228 */
+.navbar-toggler {
+  color: $navbar-light-color;
+  border-color: $navbar-light-toggler-border-color;
+}
+
+/* _navbar.scss:280 */
+.navbar-toggler {
+  color: $navbar-dark-color;
+  border-color: $navbar-dark-toggler-border-color;
+}
+.button{
+        color: white;
+		padding: 09px 15px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 50%;
+}
 .arow
 {
     hight:15px;
     border:2px solid black;
     }
-.adiv{
-hight:30px;
-background-color:white;
-}
-.bdiv{
-hight:30px;
-background-color:white;
-}
-.cdiv{
-hight:30px;
-background-color:whitw;
-}
-.ddiv{
-hight:30px;
-background-color:white;
-}
-.ediv{
-hight:30px;
-background-color:white;
-}
 img{
 float: right;
 }
@@ -39,13 +43,12 @@ float: right;
     width:300px;
 }
 .btn {
-
-		color: white;
-		padding: 14px 20px;
+        color: white;
+		padding: 09px 15px;
 		margin: 8px 0;
 		border: none;
 		cursor: pointer;
-		width: 100%;
+		width: 50%;
 	}
 	/* set a hover effect for the button*/
 
