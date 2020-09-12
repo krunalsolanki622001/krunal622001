@@ -1,11 +1,8 @@
-.abox{
-border:3px solid black;
-background-color:white;
+h1{
+    color-orange;
 }
-
-.brow
-{
-    border:2px solid red;
+h1 span{
+    border-style:outset;
 }
 .navbar-toggler {
   display: none;
@@ -22,19 +19,10 @@ background-color:white;
   color: $navbar-dark-color;
   border-color: $navbar-dark-toggler-border-color;
 }
-.button{
-        color: white;
-		padding: 09px 15px;
-		margin: 8px 0;
-		border: none;
-		cursor: pointer;
-		width: 50%;
+.container{
+    border-style:outset;
+    border-color:green;
 }
-.arow
-{
-    hight:15px;
-    border:2px solid black;
-    }
 img{
 float: right;
 }
@@ -44,14 +32,14 @@ float: right;
 }
 .btn {
         color: white;
-		padding: 09px 15px;
-		margin: 8px 0;
+		padding: 8px 8px;
+		margin: 4px 0;
 		border: none;
 		cursor: pointer;
-		width: 50%;
+		width: 100%;
 	}
 	/* set a hover effect for the button*/
 
-	button:hover {
+	btn:hover {
 		opacity: 0.8;
 	}
