@@ -8,21 +8,42 @@
 <div class="container abox">
 <h1 align="center"> Online shopping system(men's fashion store) </h1>
 <form name="HomeForm" method="get" action="shoppingcart3.html">
-<div class="row brow">
-	<h2><b>Home Page</b></h2>
-	<table >
-		<tr>
-		<td>  <input type="txt"><input type="submit" name="search" value="search"></td>
-		</tr>
-	</table>
+	<div class="row brow">
+	<h1 class="text-center">Home Page</h1>
+
 </div>
-<div class="row arow">
-	<div class="col-md-2 adiv"><a href="index.html">HOME</a></div>
-	<div class="col-md-2 bdiv"><a href="Register.html">REGISTER</a></div>
-	<div class="col-md-2 cdiv"><a href="Login.html">LOGIN</a></div>
-	<div class="col-md-2 ddiv"><a href="Contact_us.html">CONTACT_US</a></div>
-	<div class="col-md-2 ediv"> <a href="about_us.html">ABOUT_US</a></div>
-</div>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="links">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html">REGISTER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">LOGIN</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="Contact_us.html">CONTACT_US</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="about_us.html">ABOUT_US</a>
+      </li>
+    </ul>
+  </div>
+		<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+</nav>
+
 	<p><img src="img/123.jpg"  class="img-thumbnail" alt="photo" style="width:300px;height:300px;margin-left:15px;"></p>
 	<p>
 		The	Online Shopping system	(OSS) provides an easy solution for customers to buy the product .<br>
