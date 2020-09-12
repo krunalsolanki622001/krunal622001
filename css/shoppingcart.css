@@ -1,14 +1,15 @@
 .cbox{
-border:5px solid orange;
+border-style:double;
+border-color:gray;
 background-color:white;
 }
 .dbox{
-border:2px solid black;
+border-style:outset;
 background-color:blue:
 }
 .acard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -16,7 +17,7 @@ background-color:blue:
 }
 .bcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -24,7 +25,7 @@ background-color:blue:
 }
 .ccard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -32,7 +33,7 @@ background-color:blue:
 }
 .dcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -40,7 +41,7 @@ background-color:blue:
 }
 .ecard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -48,7 +49,7 @@ background-color:blue:
 }
 .fcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -56,7 +57,7 @@ background-color:blue:
 }
 .gcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -64,7 +65,7 @@ background-color:blue:
 }
 .hcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -72,7 +73,7 @@ background-color:blue:
 }
 .icard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border:2px solid red;
+  border-style:insert;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -85,100 +86,12 @@ background-color:blue:
 }
 
 
-.acard button {
+.card button {
   border: none;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.bcard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.ccard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.dcard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.ecard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.fcard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.gcard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.hcard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.icard button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
+  background-color: #0000;
   text-align: center;
   cursor: pointer;
   width: 100%;
