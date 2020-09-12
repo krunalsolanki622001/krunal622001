@@ -1,5 +1,6 @@
 form {
-		border: 3px solid #000000;
+		border-style: outset;
+		border-color:gray;
 		width: 1200px;
         height: 750px;
         margin: auto;
