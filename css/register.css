@@ -1,7 +1,8 @@
 form {
-		border: 2px solid #000000;
+		border-style: outset ;
+		border-color:gray;
 		width: 800px;
-        height: 740px;
+        height: 750px;
         margin: auto;
         position: relative;
 	}
@@ -57,7 +58,7 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .Login {
-  border:0.5px solid black;
+  border-style:double;
   background-color: #f1f1f1;
   text-align: center;
 }
