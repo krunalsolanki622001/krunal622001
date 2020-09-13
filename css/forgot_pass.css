@@ -1,7 +1,7 @@
 form {
 		border-style: outset;
 		border-color:gray;
-		width: 1200px;
+		width: 700px;
         height: 750px;
         margin: auto;
         position: relative;
@@ -14,7 +14,7 @@ form {
 .container {
   padding: 16px;
   hight:500px;
-  width:1200px;
+  width:700px;
 }
 
 /* Full-width input fields */
