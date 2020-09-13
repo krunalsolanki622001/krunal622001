@@ -1,12 +1,11 @@
 form {
 		border-style: outset;
 		border-color:gray;
-		width: 700px;
-        height: 650px;
-        margin: auto;
-        position: relative;
-
-	}
+		width: 720px;
+        	height: 650px;
+        	margin: auto;
+        	position: relative;
+}
 .form-group{
 }
 	/*assign full width inputs*/
