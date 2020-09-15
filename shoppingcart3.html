@@ -5,20 +5,19 @@
 </head>
 <body>
 <form method="get" action="checkout.html">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <a href="index.html" class="navbar-brand">
+              <img src="img/favicon.ico" height="60" width="60" alt="">
+            </a>
   <!-- Navbar links -->
   <div class="collapse navbar-collapse" id="links">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME</a>
-      </li>
+
       <li class="nav-item">
         <a class="nav-link" href="register.html">REGISTER</a>
       </li>
@@ -31,12 +30,17 @@
 		<li class="nav-item">
         <a class="nav-link" href="about_us.html">ABOUT_US</a>
       </li>
+
     </ul>
   </div>
-		<input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
+<ul class="navbar-nav ml-auto">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          </ul>
 </nav>
-    <div class="dbox"> <h2 style="text-align:center">Product Card</h2></div>
+       <div class="dbox"> <h2 style="text-align:center">Product Card</h2></div>
      <div class="row arow">
       <div class="col-xl-4 acard">
         <img src="img\shirt3.png" alt="shirt" style="width:100%">
