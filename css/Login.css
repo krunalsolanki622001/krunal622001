@@ -1,50 +1,11 @@
-form {
-		border-style: outset;
-		border-color:gray;
-		width: 720px;
-        	height: 650px;
-        	margin: auto;
-        	position: relative;
+body{
+background-color:gray;}
+h2{
+color:white}
+* {
+  box-sizing: border-box;
 }
-.form-group{
-}
-	/*assign full width inputs*/
-
-	input[type=text],
-	input[type=password] {
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		box-sizing: border-box;
-	}
-	/*set a style for the buttons*/
-
-	btn {
-		background-color: #4CAF50;
-		color: white;
-		padding: 14px 20px;
-		margin: 8px 0;
-		border: none;
-		cursor: pointer;
-		width: 100%;
-	}
-	/* set a hover effect for the button*/
-
-	btn:hover {
-		opacity: 0.8;
-	}
-	/*set extra style for the cancel button*/
-
-	.cancelbtn {
-		width: auto;
-		padding: 10px 18px;
-		background-color: #f44336;
-	}
-	/*centre the display image inside the container*/
-
-	.imgcontainer {
+.imgcontainer {
 		text-align: center;
 		margin: 20px 0 10px 0;
 	}
@@ -54,15 +15,81 @@ form {
 		width: 20%;
 		border-radius: 20%;
 	}
-	/*set padding to the container*/
 
-	.container {
-		padding: 16px;
-		width:700px;
+input[type=text],input[type=password]  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.box{
+    margin-top:100px;
+
+}
+.resetbtn {
+		margin-top:20px;
+		width: auto;
+		padding: 7px 15px;
+		background-color: #f44336;
 	}
+
 	/*set the forgot password text*/
 
 	span.psw {
+		margin-top:20px;
 		float: right;
 		padding-top: 16px;
 	}
@@ -73,7 +100,6 @@ form {
 			display: block;
 			float: none;
 		}
-		.cancelbtn {
+		.resetbtn {
 			width: 100%;
 		}
-	}
