@@ -3,10 +3,10 @@ body {
   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAtdfb4V5TLi2SmfxLI9stAStDnQe346pY6Q&usqp=CAU");
   background-size: cover;
   background-attachment: fixed;
-
 }
 h2{
-color:white}
+color:white;
+}
 * {
   box-sizing: border-box;
 }
