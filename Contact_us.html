@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/Contact_us.css">
 </head>
 <body>
-<h1 align="center"><span> Online shopping system(men's fashion store) </span></h1>
+
  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
 
@@ -35,34 +35,54 @@
     </ul>
   </div>
 </nav>
+
+<div class="box">
+  <h2><center>Contact_Us Form</center></h2>
 <div class="container">
-  <form action="index.html" method="get">
-    <h1 align="center">Contact_Us</h1>
-    <div class="from-group">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+  <form method="get" action="index.html">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
     </div>
-    <div class="from-group">
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    <div class="col-75">
+      <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name.." required>
     </div>
-    <div class="from-group">
-    <label for="country">Country</label>
-    <select id="country" name="country" required>
-      <option value="india">India</option>
-      <option value="canada">Canada</option>
-      <option value="shrilanka">shrilanka</option>
-      <option value="Japan">Japan</option>
-      <option value="katar">Katar</option>
-      <option value="Parish">Parish</option>
-    </select>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
     </div>
-    <div class="from-group">
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+    <div class="col-75">
+      <input type="text"  class="form-control" id="lname" name="lastname" placeholder="Your last name.." required>
     </div>
-    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" class="form-control" name="country" required>
+        <option value="australia">India</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="australia">Australia</option>
+        <option value="canada">newyork</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <button type="submit" class="btn btn-success" >GO==></button>
+  </div>
   </form>
+</div>
 </div>
 <script src="javascript/bootstrao.min.js"></script>
 </body>
