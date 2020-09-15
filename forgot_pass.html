@@ -20,7 +20,7 @@
         <a class="nav-link" href="index.html">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.html">REGISTER</a>
+        <a class="nav-link" href="Register.html">REGISTER</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="Login.html">LOGIN</a>
@@ -35,41 +35,50 @@
   </div>
 </nav>
 
-<form action="Login.html" method="get">
-  <div class="container">
-    <h1>Reset password!!!</h1>
-    <hr>
-    <div class="from-group">
-    <label for="Full Name"><b>Full Name</b></label>
-      <input type="text" placeholder="Enter Full Name" name="name" id="name" required>
-    </div>
-
-    <div class="from-group">
+<div class="box">
+  <h2><center>ResetPassword Form</center></h2>
+<div class="container">
+  <form method="get" action="Login.html">
+  <div class="row">
+    <div class="col-25">
       <label for="Mobile Number"><b>Mobile Number</b></label>
-      <input type="number" placeholder="Enter Mobile Number" name="number" id="number" required>
     </div>
-
-    <div class="from-group">
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <div class="col-75">
+      <input type="number" class="form-control"  placeholder="Your Mobile Number..." name="number" id="t1" required>
     </div>
-
-    <div class="from-group">
-      <label for="psw"><b>Enter New Password</b></label>
-      <input type="password" placeholder="Enter New Password" name="psw" id="psw" required>
-    </div>
-
-    <div class="from-group">
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    </div>
-      <hr>
-      <center><button type="submit" class="btn btn-primary">Reset</button></center>
-
   </div>
 
+  <div class="row">
+    <div class="col-25">
+      <label for="email"><b>Email</b></label>
+    </div>
+    <div class="col-75">
+      <input type="text" class="form-control" placeholder="Enter Email" name="email" id="t2" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="psw"><b>Password</b></label>
+    </div>
+    <div class="col-75">
+     <input type="password" class="form-control"  placeholder="Enter Password" name="psw" id="t2" required>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+    </div>
+    <div class="col-75">
+      <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="t4" required>
+    </div>
+  </div>
+  <div class="row">
+    <button type="submit" class="btn btn-primary" onclick="validate()">Re-Set</button>
+  </div>
 
-</form>
+  </form>
+</div>
+</div>
 
 </body>
 </html>
