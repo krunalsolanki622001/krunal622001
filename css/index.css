@@ -1,5 +1,5 @@
-body{
-	background-color:lightblue;
+body {
+  background-color: lightblue;
 }
 h1{
     color-orange;
@@ -23,15 +23,14 @@ h1 span{
   border-color: $navbar-dark-toggler-border-color;
 }
 .container{
-    border-style:outset;
-    border-color:green;
+    width: 100%;
+    margin-top: 3%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
-img{
-float: right;
-}
-.img-thumbnail{
-    hight:300px;
-    width:300px;
+
+.row{
+    margin-top: 20px;
 }
 .btn {
         color: white;
