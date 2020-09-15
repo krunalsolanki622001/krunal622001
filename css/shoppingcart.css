@@ -3,6 +3,9 @@ border-style:double;
 border-color:gray;
 background-color:white;
 }
+h2{
+    color:white;
+}
 .dbox{
 border-style:outset;
 background-color:blue:
