@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAtdfb4V5TLi2SmfxLI9stAStDnQe346pY6Q&usqp=CAU");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+h1{
+color:white;}
+h2{
+    color:white;
+}
+  .badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  }
+  .my-cart-icon-affix {
+    position: fixed;
+    z-index: 999;
+  }
+.cbox{
+border-style:double;
+border-color:gray;
+background-color:white;
+}
+.dbox{
+border-style:outset;
+background-color:blue:
+}
+.acard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top: 50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.bcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.ccard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.dcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.ecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.fcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.gcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+.hcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-style:insert;
+  max-width: 300px;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: center;
+  font-family: arial;
+}
+
+
+.price {
+  color: red;
+  font-size: 22px;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #0000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
