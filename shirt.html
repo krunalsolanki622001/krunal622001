@@ -1,0 +1,159 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/shirt.css">
+</head>
+<body>
+<form method="get" action="#">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <a href="index.html" class="navbar-brand">
+              <img src="img/favicon.ico" height="60" width="60" alt="">
+            </a>
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="links">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="register.html">REGISTER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">LOGIN</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="Contact_us.html">CONTACT_US</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="about_us.html">ABOUT_US</a>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+    <div class="dbox"> <h2 style="text-align:center">Product Card</h2>
+        <div style="float: right; cursor: pointer;">
+        <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+      </div>
+    </div>
+     <div class="row arow">
+      <div class="col-xl-4 acard">
+        <img src="img\1shirt1.png" alt="shirt" style="width:100%">
+        <h1>shirt 1</h1>
+        <p class="price">Rs.400</p>
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="400" data-quantity="1" data-image="img/1shirt1.png">Add to Cart</button>
+      </div>
+        <div class="col-xl-4 bcard">
+        <img src="img\1shirt2.png" alt="1shirt2" style="width:100%">
+        <h1>shirt 2</h1>
+        <p class="price">Rs.299</p>
+         <button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" data-summary="summary 2" data-price="299" data-quantity="1" data-image="img/1shirt2.png">Add to Cart</button>
+      </div>
+      <div class="col-xl-4 ccard">
+        <img src="img\1shirt3.png" alt="1shirt3" style="width:100%">
+        <h1>shirt 3</h1>
+        <p class="price">Rs.699</p>
+         <button class="btn btn-danger my-cart-btn" data-id="3" data-name="product 3" data-summary="summary 3" data-price="699" data-quantity="1" data-image="img/1shirt3.png">Add to Cart</button>
+      </div>
+        <div class="col-xl-4 dcard">
+        <img src="img\1shirt4.png" alt="1shirt4" style="width:100%">
+        <h1>shirt 4</h1>
+        <p class="price">Rs.600</p>
+         <button class="btn btn-danger my-cart-btn" data-id="4" data-name="product 4" data-summary="summary 4" data-price="600" data-quantity="1" data-image="img/1shirt4.png">Add to Cart</button>
+      </div>
+      <div class="col-xl-4 ecard">
+        <img src="img\1shirt5.png" alt="1shirt5" style="width:100%">
+        <h1>shirt 5</h1>
+        <p class="price">Rs.900</p>
+         <button class="btn btn-danger my-cart-btn" data-id="5" data-name="product 5" data-summary="summary 5" data-price="900" data-quantity="1" data-image="img/1shirt5.png">Add to Cart</button>
+      </div>
+      <div class="col-xl-4 fcard">
+        <img src="img\1shirt6.png" alt="1shirt6" style="width:100%">
+        <h1>shirt 6</h1>
+        <p class="price">Rs.1844</p>
+         <button class="btn btn-danger my-cart-btn" data-id="6" data-name="product 6" data-summary="summary 6" data-price="1800" data-quantity="1" data-image="img/1shirt6.png">Add to Cart</button>
+      </div>
+        <div class="col-xl-4 gcard">
+        <img src="img\1shirt7.png" alt="1shirt7" style="width:100%">
+        <h1>shirt 7</h1>
+        <p class="price">Rs.5378</p>
+         <button class="btn btn-danger my-cart-btn" data-id="7" data-name="product 7" data-summary="summary 7" data-price="5378" data-quantity="1" data-image="img/1shirt7.png">Add to Cart</button>
+      </div>
+        <div class="col-xl-4 hcard">
+        <img src="img\1shirt8.png" alt="1shirt8" style="width:100%">
+        <h1>shirt 8</h1>
+        <p class="price">Rs.600</p>
+         <button class="btn btn-danger my-cart-btn" data-id="8" data-name="product 8" data-summary="summary 8" data-price="600" data-quantity="1" data-image="img/1shirt8.png">Add to Cart</button>
+        </div>
+
+     </div>
+</form>
+
+  <script src="javascript/jquery-2.2.3.min.js"></script>
+  <script type='text/javascript' src="javascript/bootstrap.min.js"></script>
+  <script type='text/javascript' src="javascript/jquery.mycart.js"></script>
+  <script type="text/javascript">
+  $(function () {
+
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($image);
+      var position = $cartIcon.position();
+      $image.animate({
+        top: position.top,
+        left: position.left
+      }, 500 , "linear", function() {
+        $image.remove();
+      });
+    }
+
+    $('.my-cart-btn').myCart({
+      currencySymbol: 'Rs.',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      numberOfDecimals: 2,
+      cartItems: [
+        {id: 1, name: 'product 1', summary: 'summary 1', price: 400, quantity: 1, img: 'img/1shirt1.png'},
+        {id: 2, name: 'product 2', summary: 'summary 2', price: 299, quantity: 2, img: 'img/1shirt2.png'},
+        {id: 3, name: 'product 3', summary: 'summary 3', price: 699, quantity: 1, img: 'img/1shirt3.png'}
+      ],
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+      afterAddOnCart: function(products, totalPrice, totalQuantity) {
+        console.log("afterAddOnCart", products, totalPrice, totalQuantity);
+      },
+      clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+        console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+      },
+      checkoutCart: function(products, totalPrice, totalQuantity) {
+        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
+        checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
+        $.each(products, function(){
+          checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
+        });
+        alert(checkoutString)
+        console.log("checking out", products, totalPrice, totalQuantity);
+      },
+      getDiscountPrice: function(products, totalPrice, totalQuantity) {
+        console.log("calculating discount", products, totalPrice, totalQuantity);
+        return totalPrice * 0.5;
+      }
+    });
+
+
+  });
+  </script>
+</body>
+</html>
